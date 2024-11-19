@@ -54,7 +54,7 @@ export class AppComponent implements OnInit /*AfterViewInit*/ {
   /*
     ngAfterViewInit(): void {
       setTimeout(() => {
-        this.facadeService.fetchInitial("http://pid.bayer.com/kos/19014/1/ggvcm");
+        this.facadeService.fetchInitial("http://github.com/Bayer-Group/kos/19014/1/ggvcm");
       }, 500)
     }
   */
@@ -77,7 +77,7 @@ export class AppComponent implements OnInit /*AfterViewInit*/ {
       },
       error => console.log("there was an error by calling the backend", error)
     )
-    //this.nquadsService.fetchNquads("http://pid.bayer.com/kos/19014/1/ggvcm", RequestTypeEnum.OUTGOING);
+    //this.nquadsService.fetchNquads("http://github.com/Bayer-Group/kos/19014/1/ggvcm", RequestTypeEnum.OUTGOING);
 
     this.profileService.initCustomCssStyles();
     this.sidebarService.getSidebarOpen().subscribe(() => {

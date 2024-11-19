@@ -5,10 +5,10 @@
         "node" : {
             "data" : {
                 "showLabel": [
-                    "https://pid.bayer.com/kos/19050/hasLabel",
+                    "https://github.com/Bayer-Group/kos/19050/hasLabel",
                     "http://www.w3.org/2000/01/rdf-schema#label",
-                    "http://pid.bayer.com/kos/19014/preferredLabel",
-                    "http://pid.bayer.com/kos/19014/fullName",
+                    "http://github.com/Bayer-Group/kos/19014/preferredLabel",
+                    "http://github.com/Bayer-Group/kos/19014/fullName",
                     "http://www.w3.org/2004/02/skos/core#prefLabel"
                 ]
             },
@@ -22,7 +22,7 @@
                 "http://www.w3.org/2002/07/owl#": "owl"
             },
             "userDefinedFormatUris": {          
-                "http://pid.bayer.com/" : "bayerPID"
+                "http://github.com/Bayer-Group/" : "bayerPID"
             }
         },
         "links" : {

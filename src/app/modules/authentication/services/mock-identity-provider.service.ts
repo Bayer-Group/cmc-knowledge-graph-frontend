@@ -11,7 +11,7 @@ export class MockIdentityProvider implements IdentityProvider {
   constructor() { }
 
   getAccount(): Observable<UserAccount>{
-    return of(new UserAccount('SuperAdmin', 'superadmin@bayer.com'))
+    return of(new UserAccount('SuperAdmin', 'superadmin@github.com'))
   }
 
   loginInProgress(): boolean {
