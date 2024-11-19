@@ -24,7 +24,7 @@
     "@angular/platform-browser-dynamic": "~9.0.4",
     "@angular/router": "~9.0.4",
     "@azure/msal-angular": "^1.1.1",
-    "d3": "^5.15.0",
+    "d3": "^7.9.0",
     "d3-force-reuse": "^1.0.1",
     "file-saver": "^2.0.5",
     "is-image-url": "^1.1.8",
